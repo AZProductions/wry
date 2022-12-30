@@ -69,10 +69,10 @@ impl Window {
     false
   }
   pub fn set_cursor_icon(&self, cursor_icon: CursorIcon) {
-    todo!() // leave empty
+    return
   }
   pub fn begin_resize_drag(&self, edge: isize, button: u32, x: i32, y: i32) {
-    todo!() // leave empty
+    return// leave empty
   }
 }
 
